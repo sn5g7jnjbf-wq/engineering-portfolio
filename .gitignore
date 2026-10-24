@@ -1,0 +1,32 @@
+# Secrets and machine-specific settings
+private/
+local.properties
+release-signing.properties
+*.jks
+*.keystore
+*.p12
+*.pem
+*.key
+*credentials*
+*secret*
+*token*
+
+# Generated, recovered, and handoff files
+outputs/
+work/
+handoff-staging/
+*.apk
+*.aab
+*.zip
+*.log
+*.xml
+
+# Build and IDE files
+.gradle/
+.idea/
+**/build/
+*.iml
+
+# OS files
+.DS_Store
+Thumbs.db
